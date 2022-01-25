@@ -1,4 +1,4 @@
-import { StyledNav, Menu, Logo, NavButton } from "./styles/Navbar.styled"
+import { StyledNav, Menu, Logo, NavButton, GitLink } from "./styles/Navbar.styled"
 import {Container} from "./styles/Container.styled"
 
 
@@ -10,14 +10,16 @@ const Navbar = () => {
                 <Menu>
                  <Logo src='./images/next.png' alt='logo'  />
                  <ul>
-                     <p>Showcase</p>
-                     <p>Docs</p>
-                     <p>Blog</p>
-                     <p>Analytics</p>
-                     <p>Exampples</p>
-                     <p>Enterprise</p>
+                     <a>Showcase</a>
+                     <a>Docs</a>
+                     <a>Blog</a>
+                     <a>Analytics</a>
+                     <a>Examples</a>
+                     <a>Enterprise</a>
+                     
                  </ul>
                  <NavButton>Learn</NavButton> 
+                 <GitLink src='./images/github.png' alt='logo'  />
                 </Menu>
         </Container>
    

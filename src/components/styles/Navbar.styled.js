@@ -4,7 +4,7 @@ import styled from 'styled-components'
 export const StyledNav = styled.div`
     background-color: ${( {theme} )=> theme.colors.navbar};
     color: ${({color})=> color};
-    padding: 0px 0px;
+    padding: 5px 0px;
 
     
     
@@ -14,16 +14,19 @@ export const Menu = styled.nav`
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     ul {
 
-    display: flex;
-    margin-right: 60px;
+   
+    margin-right: 10px;
    
     }
 
-    p {
+    a {
         padding:0px 30px;
+        decoration: none;
+        font-size: 16px;
+        color:0070f3;
            }
     
     `
@@ -53,3 +56,14 @@ export const NavButton = styled.button`
     }
 
     `
+
+export const GitLink = styled.img`
+    padding: 15px 15px;
+    width:55px;
+
+    &:hover{
+
+opacity: 0.9;
+transform: scale(0.98);
+}
+`

@@ -10,5 +10,7 @@ export const  Container = styled.div`
 
         width:2px;
     }
+
+    
 `
 

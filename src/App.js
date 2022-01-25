@@ -1,4 +1,4 @@
-import {ThemeProvider} from 'styled-components'
+import { ThemeProvider } from 'styled-components'
 
 import Topbanner from './components/Topbanner';
 import Navbar from './components/Navbar'
@@ -7,13 +7,13 @@ import Search from './components/Search';
 
 
 const theme = {
-  colors:{
-      
-      navbar:'#fff',
-      body: '#fff',
-      footer:'Green',
+  colors: {
 
-    },
+    navbar: '#fff',
+    body: '#fff',
+    footer: 'Green',
+
+  },
 
 }
 
@@ -22,17 +22,13 @@ const theme = {
 function App() {
   return (
 
-    <ThemeProvider theme = {theme}>
-  <>
-
-      <Topbanner/>
-      <Navbar />
-      <GlobalStyled />
-
-      <Search/>
-    
-  
-   </>
+    <ThemeProvider theme={theme}>
+      <>
+        <Topbanner />
+        <Navbar />
+        <GlobalStyled />
+        <Search />
+      </>
 
     </ThemeProvider>
   );

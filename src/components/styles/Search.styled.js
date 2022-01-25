@@ -1,14 +1,16 @@
 import styled from 'styled-components'
 
 export const StyledSearch = styled.div`
-  
-    margin-left: 170px;
-    margin-right: 170px;
+    
+    margin-left: 160px;
+    margin-right: 200px;
     display:flex;
     max-height: 50px;
     border: 2px solid;
     border-radius: 10px;
     border-color: #eaeaea;
+    
+    
 
     ${'' /* padding-left: 500px;
     padding-right: 50px; */}
@@ -19,6 +21,10 @@ export const StyledSearch = styled.div`
         font-size:13px;
         
     }
+
+    a {
+        text-decoration: inherit;
+}
 
 
 `
