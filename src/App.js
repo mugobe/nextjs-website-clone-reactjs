@@ -4,6 +4,7 @@ import Topbanner from './components/Topbanner';
 import Navbar from './components/Navbar'
 import GlobalStyled from './components/styles/Global.styled';
 import Search from './components/Search';
+import Introbody from './components/Introbody';
 
 
 const theme = {
@@ -28,6 +29,7 @@ function App() {
         <Navbar />
         <GlobalStyled />
         <Search />
+        <Introbody />
       </>
 
     </ThemeProvider>
