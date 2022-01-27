@@ -13,6 +13,7 @@ const theme = {
     navbar: '#fff',
     body: '#fff',
     footer: 'Green',
+    introbtnColor: '#fff',
 
   },
 
