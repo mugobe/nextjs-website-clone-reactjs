@@ -19,6 +19,8 @@ export const StyledIntro = styled.div`
         
     }
 
+
+
     h2 {
         font-size: 100px;
         font-weight: 780;
@@ -31,6 +33,35 @@ export const StyledIntro = styled.div`
     p {
         margin-top:-60px;
     }
+    h6 a {
+
+        font-size: 16px;
+        margin-right:517px;
+        font-weight: normal;
+    
+
+    }
+
+    a {
+
+text-decoration:none;
+color: #0070f3;
+
+
+}
+
+    h5 {
+
+font-size: 16px;
+font-weight: normal;
+margin-left:490px;
+margin-top: 28px;
+color: #696969;
+
+}
+
+
+
 `
 
 export const MyButtons = styled.div`

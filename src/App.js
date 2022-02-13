@@ -5,6 +5,7 @@ import Navbar from './components/Navbar'
 import GlobalStyled from './components/styles/Global.styled';
 import Search from './components/Search';
 import Introbody from './components/Introbody';
+import CardSection from './components/CardSection';
 
 
 const theme = {
@@ -31,6 +32,7 @@ function App() {
         <GlobalStyled />
         <Search />
         <Introbody />
+        <CardSection />
       </>
 
     </ThemeProvider>
